@@ -9,6 +9,14 @@ git clone https://github.com/gianPerissutti/ecg-anomaly-esp32.git
 cd ecg-anomaly-esp32
 ```
 
+## Tesis y formación
+
+Mi tesis de grado está disponible en el Repositorio Institucional Abierto de la UTN. [Detección de anomalías en electrocardiogramas mediante una red neuronal implementada en microcontrolador](https://ria.utn.edu.ar/handle/20.500.12272/14019).
+
+Cursé **Tiny Machine Learning** de HarvardX como oyente (*Audit*). Ahí aprendí a ejecutar modelos en microcontroladores con TensorFlow Lite Micro y apliqué ese flujo para llevar este autoencoder a la ESP32-S3. [Programa en edX](https://www.edx.org/certificates/professional-certificate/harvardx-tiny-machine-learning).
+
+Podés anotarte gratis como oyente, curso por curso, y acceder a las clases y lecturas por tiempo limitado. La modalidad con certificado verificado es paga. [Cursos y modalidad gratuita en Harvard Online](https://harvardonline.harvard.edu/program/professional-certificate-in-tiny-machine-learning-tinyml).
+
 ## Compilación y carga
 
 Usá una ESP32-S3 con 8 MB de flash. Conectala por un puente USB–UART de 3,3 V con reinicio automático por RTS. Si tu placa tiene dos conectores USB separados, usá el marcado **UART**.
